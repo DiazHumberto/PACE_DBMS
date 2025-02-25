@@ -1,7 +1,7 @@
 CREATE DATABASE create_customer;
 USE create_customer;
 
-CREATE TABLE customer;
+-- Este es un comentario
 
 CREATE TABLE customer (
     id INT PRIMARY KEY AUTO_INCREMENT,
@@ -17,3 +17,5 @@ INSERT INTO customer (name, email, phone) VALUES
 ('Charlie Brown', 'charlie@example.com', '555-555-5555');
 
 SELECT * FROM customer;
+
+
