@@ -8,7 +8,8 @@ CREATE TABLE customer (
     name VARCHAR(100) NOT NULL,
     email VARCHAR(100) UNIQUE NOT NULL,
     phone VARCHAR(15),
-    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    location VARCHAR(50)
 );
 
 INSERT INTO customer (name, email, phone) VALUES
